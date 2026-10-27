@@ -1,0 +1,12 @@
+@import './styles/variables.css';
+@import './styles/reset.css';
+@import './styles/buttons.css';
+@import './styles/header.css';
+@import './styles/hero.css';
+@import './styles/specials.css';
+@import './styles/testimonials.css';
+@import './styles/about.css';
+@import './styles/bookingForm.css';
+@import './styles/confirmation.css';
+@import './styles/footer.css';
+@import './styles/responsive.css';
