@@ -53,7 +53,7 @@ describe('BookingForm Unit Tests', () => {
     );
 
     const guestsInput = screen.getByLabelText(/Number of guests/i);
-    const submitBtn = screen.getByRole('button', { name: /Confirm and submit reservation/i });
+    const submitBtn = screen.getByRole('button', { name: /Make Your reservation/i });
 
     // Enter invalid number of guests (0)
     fireEvent.change(guestsInput, { target: { value: '0' } });
@@ -77,7 +77,7 @@ describe('BookingForm Unit Tests', () => {
       />
     );
 
-    const submitBtn = screen.getByRole('button', { name: /Confirm and submit reservation/i });
+    const submitBtn = screen.getByRole('button', { name: /Make Your reservation/i });
     expect(submitBtn).not.toBeDisabled();
 
     fireEvent.click(submitBtn);

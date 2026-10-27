@@ -83,9 +83,9 @@ export default function BookingForm({ availableTimes, dispatch, submitForm }) {
           type="submit"
           className="btn btn-primary submit-btn"
           disabled={!isFormValid}
-          aria-label="Confirm and submit reservation"
+          aria-label="Make Your reservation"
         >
-          Confirm Reservation
+          Make Your reservation
         </button>
       </div>
     </form>
