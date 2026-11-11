@@ -1,6 +1,6 @@
 # Little Lemon Restaurant Web Application
 
-A responsive React web application built for the Little Lemon restaurant in Chicago as part of the Meta Front-End Developer Capstone Project.
+A responsive React web application built for the Little Lemon restaurant in Chicago as part of the Meta Front-End Developer Capstone Project
 
 ## Overview & Features
 - **Semantic UX/UI**: Styled using Little Lemon brand colors (Primary Green `#495E57`, Lemon Yellow `#F4CE14`) and Google Fonts (*Markazi Text* and *Karla*).
